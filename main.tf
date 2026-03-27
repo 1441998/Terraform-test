@@ -6,7 +6,7 @@ data "ibm_resource_group" "rg" {
 # 2. The VPC (The "Container" for everything)
 resource "ibm_is_vpc" "vpc" {
   name           = "vpc-dallas-prod"
-  resource_group = 7d27d607ac0a4e759279c822d746399f
+  resource_group = "7d27d607ac0a4e759279c822d746399f"
 }
 
 # 3. Public Gateway (Allows your VSI to talk to the internet/updates)
