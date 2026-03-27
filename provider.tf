@@ -8,5 +8,6 @@ terraform {
 }
 
 provider "ibm" {
+  # CHANGE THIS: If you want to deploy to a different region than Tokyo
   region = "us-south" 
 }
